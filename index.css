@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(253, 227, 240);
+}
+.header, .task {
+    text-align: center;
+}
+
+.header{
+    margin-top: 30px;
+    padding: 10px 0px;
+    font-size: 28px;
+    color: rgb(204, 30, 74);
+}
+
+.task{
+    border: 10px groove rgb(204, 30, 74);
+    width: 30%;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.task_header{
+    padding-bottom: 30px;
+    font-size: 24px;
+    color: rgb(7, 7, 150);
+}
+
+.task_username-title{
+    padding: 20px 0px;
+    font-size: 20px;
+    color: rgb(204, 30, 74);
+    height: 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-header{
+    margin: 10px 0px;
+}
+.form-row{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 10px;
+    display: flex;
+}
+.form-row_label{
+    width: 25%;
+    text-align: left;
+    padding: 5px;
+}
+.for-row_input-text{
+    width: 75%;
+}
+.form-btn-row{
+    justify-content:center;
+    padding: 2px;
+}
+.for-row_btn{
+    background-color: white;
+    border: 1px solid rgb(0, 0, 0);
+    width: 6.5rem;
+    padding: 0.4rem;
+}
+.for-row_btn:hover{
+    background-color: rgb(230, 96, 96);
+    color: rgb(0, 0, 0);
+}
+.for-row_btn:active{
+    background-color:  rgb(221, 47, 47);
+}
+.for-row_btn-submit{margin-right: 0.4rem;}
+.for-row_btn-clear{margin-left: 0.4rem;}
